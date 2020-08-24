@@ -6,9 +6,10 @@
 </p>
 
 
-<h1 align="center"><a href="https://www.iota.org"> IOTA NAME-HERE Initiative</a></h1>
+<h1 align="center"><a href="https://www.iota.org"> IOTA Identity
+ Initiative</a></h1>
 
-<p align="center">The IOTA NAME-HERE Initiative is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.</p>
+<p align="center">The IOTA Identity Initiative is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.</p>
 
 <p align="center">
   <a title="MIT License" href="LICENSE">
@@ -22,15 +23,17 @@
 </p>
 
 
-## 🌳 IOTA NAME-HERE Initiative
+## 🌳 IOTA Identity Initiative
 
-The **IOTA NAME-HERE Initiative** is a collaborative effort to help people in the IOTA Community by introducing consistent workflows around [IOTA NAME-HERE](https://link-to-blogpost or article) with content, and open source contributions.
+The **IOTA Identity Initiative** is a collaborative effort to help people in the IOTA Community by introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs) with content, and open source contributions.
+
+IOTA Identity is an implementation of decentralized digital identity also known as Self Sovereign Identity (SSI). It implements standards such as DID and Verifiable Credentials from W3C and other related (proposed) standards.
 
 IOTA is an open-source distributed ledger technology that allows [connected devices](https://en.wikipedia.org/wiki/Connected_Devices) to transfer data and [IOTA tokens](https://docs.iota.org/docs/getting-started/0.1/clients/token) among each other for zero fees.
 
 ## 🎯 Initiative Goals
 
-The IOTA NAME-HERE is in phase [alpha implementation, ready for review, research phase]. We are currently focused on improving the IOTA Experience around the following goals:
+The IOTA Identity is in phase [alpha implementation, ready for review, research phase]. We are currently focused on improving the IOTA Experience around the following goals:
 
 **Insert goals you would like to achive and delete this line**
 
@@ -38,6 +41,7 @@ The IOTA NAME-HERE is in phase [alpha implementation, ready for review, research
 - Documentation
 - Code samples development
 - Improvements to module/libraries
+- Test and extend Rust Bindings
 
 ### Quality Assurance/Review
 
