@@ -18,14 +18,14 @@ assignees: 'huhn511'
 - [ ] Tester
 - [ ] Writer
 
-## What are you skills? (Programming languages and/or other tools)
+## What are your skills? (Programming languages and/or other tools)
 Please arrange your skills along with experience.
 1. your skill 1
 2. your skill 2
 3. your skill 3
 4. your skill 4
 
-## Describe yourself in a few sentene
+## Describe yourself in a few sentences
 - [please fill in]
 
 ## Why do you like to join the Identity X-Team? 
