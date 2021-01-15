@@ -33,15 +33,15 @@ IOTA is an open-source distributed ledger technology that allows [connected devi
 
 ## 🎯 Initiative Goals
 
-The IOTA Identity is in phase [alpha implementation, ready for review, research phase]. We are currently focused on improving the IOTA Experience around the following goals:
-
-**Insert goals you would like to achive and delete this line**
+The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:
 
 - Quality Assurance/Review
 - Documentation
 - Code samples development
 - Improvements to module/libraries
-- Test and extend Rust Bindings
+- Test Rust Code
+- Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
+
 
 ### Quality Assurance/Review
 
