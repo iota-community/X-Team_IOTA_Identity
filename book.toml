@@ -7,9 +7,14 @@ title = "IOTA Identity"
 
 
 [output.html]
-default-theme = "XTeam"
+default-theme = "iota"
 git-repository-url = "https://github.com/iota-community/X-Team_IOTA_Identity"
 git-repository-icon = "fa-github"
+
+# This is for another Sidebar
+additional-css = ["theme/custom/custom.css"]
+# additional-css = ["theme/custom/custom.css", "theme/custom/sidebar.css"]
+# additional-js = ["theme/custom/sidebar.js"]
 
 [output.html.search]
 limit-results = 20
