@@ -53,6 +53,8 @@ Quality Assurance/Review goal includes making sure that the releases are easily 
 
 Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest
 
+- [Identity Documenation Poral](https://identity.docs.iota.org/) 
+
 > - [ ] **Insert goal name and link to issue. e.g.** [“Channels Application step-by-step” joint blog post series (B)](https://github.com/iota-community/IOTAStreams/issues/2)
 > - [ ]
 ### Code samples development
