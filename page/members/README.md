@@ -5,7 +5,7 @@ The list is sorted alphabetically by GitHub accounts.
 
 - GitHub Account | Email | Discord Handle
 
-## NewBees
+## X-Team
 
 NewBees are new to Rust and help each other by problems.
 - <a href="https://github.com/fiNYvo" target="blank">fiNYvo</a> | <mail@your.mail> | your_discord#handle | Developer
