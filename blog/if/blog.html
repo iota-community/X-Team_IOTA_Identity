@@ -1,25 +1,22 @@
 <script>
-const api = new GhostContentAPI({
-    url: 'https://blog.iota.org',
-    key: '702e8272d1e5b4602943a63df5',
-    version: "v3"
-});
+window.onload = function (e) {
+    var ul = document.createElement('ul');
+    document.getElementById('if-blog-list').appendChild(ul);
 
-var ul = document.createElement('ul');
-document.getElementById('if-blog-list').appendChild(ul);
-
-// fetch 5 posts, including related tags and authors
-api.posts
-    .browse({ limit: 5, include: 'tags,authors', filter: 'tag:identity' })
-    .then((posts) => {
-        posts.forEach((post) => {
-            console.log(post.title);
-            var li = document.createElement('li');
-			ul.appendChild(li);
-			li.innerHTML += post.title;
+    // fetch 5 posts, including related tags and authors
+    api.posts
+        .browse({ limit: 5, include: 'tags,authors', filter: 'tag:identity' })
+        .then((posts) => {
+            posts.forEach((post) => {
+                console.log(post.title);
+                var li = document.createElement('li');
+                ul.appendChild(li);
+                li.innerHTML += post.title;
+            });
+        })
+        .catch((err) => {
+            console.error(err);
         });
-    })
-    .catch((err) => {
-        console.error(err);
-    });
+
+};
 </script>
