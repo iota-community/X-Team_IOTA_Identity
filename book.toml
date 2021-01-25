@@ -2,7 +2,7 @@
 authors = ["huhn511"]
 language = "en"
 multilingual = false
-src = "./"
+src = "./page"
 title = "IOTA Identity"
 
 
