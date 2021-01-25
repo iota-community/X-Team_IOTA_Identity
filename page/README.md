@@ -1,3 +1,1 @@
-# Page filesystem
-
-This files will generated to static HTML files.
+{{ #include ../README.md }}
