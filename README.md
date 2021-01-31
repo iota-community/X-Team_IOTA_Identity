@@ -1,11 +1,3 @@
-<p align="center">
-  <br>
-  <a href="https://www.iota.org">
-    <img src="https://media.iota.works/IOTA_Logo/Black/IOTA_Logo_black_100px.png"/>
-  </a>
-</p>
-
-
 <h1 align="center"><a href="https://www.iota.org"> IOTA Identity
  Initiative</a></h1>
 
