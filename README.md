@@ -1,8 +1,6 @@
 <p align="center">
   <br>
-  <a href="https://www.iota.org">
-    <img src="https://media.iota.works/IOTA_Logo/Black/IOTA_Logo_black_100px.png"/>
-  </a>
+    <img src="https://iota-community.github.io/IOTA-eXperience-Team/page-resources/images/x_team_logo.svg"/>
 </p>
 
 
