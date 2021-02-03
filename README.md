@@ -27,32 +27,32 @@ The **IOTA Identity Experience Team** is a collaborative effort to provide help,
 
 ## 🎯 Initiative Goals
 
-The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:
-
-- ### Quality Assurance/Review
-
-Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
+The [IOTA Identity library](https://github.com/iotaledger/identity.rs) is currently in alpha phase. Hence, we are focused on improving the experience around the following topics:
 
 - ### Documentation
-	Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest
+	Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest [Identity Documenation Poral](https://identity.docs.iota.org/) 
 
-- [Identity Documenation Poral](https://identity.docs.iota.org/) 
-- ### Code samples development
+- ### Quality Assurance & Review
+	Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
 
+- ### Code Samples Development
 	Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development
-- ### Improvements to module/libraries
-Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
-- ### Test Rust Code
-bla blub
-- ### Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
-dfgsdfg
+
+- ### Improvements to Module and Libraries
+	Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
+
+- ### Testing Rust Code
+	bla blub
+
+- ### Testing and extending bindings to other programming languages (WASM, C, Python, Java, Go, ...)
+	dfgsdfg
 
 ## 🤔 How Can You Get Involved?
 
-Show your interest by adding your information with an issue here on github and join the IOTA Experience Team on the [IOTA Discord](https://discord.iota.org).
+Show your interest by adding some information about you through an Application issue here on Github (see [closed issues](https://github.com/iota-community/X-Team_IOTA_Identity/issues?q=is%3Aissue+is%3Aclosed)) and join the IOTA Identity Experience Team on the [IOTA Discord](https://discord.iota.org).
 
 ## 👥 What to expect?
 
-Meet with IOTA Foundation members to exchange ideas, give and receive feedback for the chosen goal(s).
+Weekly meetups to discuss with IOTA Community as well as IOTA Foundation members to exchange ideas and give and receive feedback for the chosen goal(s) or ongoing projects.
 
 This initiative is possible thanks to the contribution of the IOTA Community members and participants will be invited to participate in feedback collecting and evaluating sessions to further push the capabilities of the IOTA Experience Teams. 
