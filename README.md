@@ -1,7 +1,4 @@
-<h1 align="center"><a href="https://www.iota.org"> IOTA Identity
- Initiative</a></h1>
-
-<p align="center">The IOTA Identity Initiative is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.</p>
+<h1 align="center"><a href="https://www.iota.org"> IOTA Identity Experience Team</a></h1>
 
 <p align="center">
   <a title="MIT License" href="LICENSE">
@@ -15,60 +12,42 @@
 </p>
 
 
-## 🌳 IOTA Identity Initiative
+## 🌳 IOTA Identity Experience Team
 
-The **IOTA Identity Initiative** is a collaborative effort to help people in the IOTA Community by introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs) with content, and open source contributions.
+The **IOTA Identity Experience Team** is a collaborative effort to provide help, guidance and spotlight to the IOTA Identity Community through offering feedback and introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs).
 
-IOTA Identity is an implementation of decentralized digital identity also known as Self Sovereign Identity (SSI). It implements standards such as DID and Verifiable Credentials from W3C and other related (proposed) standards.
+**IOTA Identity** is an implementation of decentralized digital identity, also known as Self Sovereign Identity (SSI), by the [IOTA Foundation](https://www.iota.org). It implements standards such as [Decentralized Identifiers (DID)](https://www.w3.org/TR/did-core/) and [Verifiable Credentials (VC)](https://www.w3.org/TR/vc-data-model/) from W3C as well as other related (proposed) standards.
 
-IOTA is an open-source distributed ledger technology that allows [connected devices](https://en.wikipedia.org/wiki/Connected_Devices) to transfer data and [IOTA tokens](https://docs.iota.org/docs/getting-started/0.1/clients/token) among each other for zero fees.
+**IOTA** is an open-source distributed ledger technology that allows [connected devices](https://en.wikipedia.org/wiki/Connected_Devices) to securely transfer data and [IOTA tokens](https://docs.iota.org/docs/getting-started/0.1/clients/token) amongst each other without any fees.
 
 ## 🎯 Initiative Goals
 
-The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:
+The [IOTA Identity library](https://github.com/iotaledger/identity.rs) is currently in alpha phase. Hence, we are focused on improving the experience around the following topics:
 
-- Quality Assurance/Review
-- Documentation
-- Code samples development
-- Improvements to module/libraries
-- Test Rust Code
-- Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
+- ### Documentation
+	Documentation includes everything related to writing, curating, and sharing content with solid documentation at every launch, which is kept up-to-date and well-written, with examples and explanations of tangible use cases to stimulate developer interest. This is done mainly within the codebase as comments as well as through the [IOTA Identity Documenation Portal](https://identity.docs.iota.org/).
 
+- ### Quality Assurance & Review
+	The Quality Assurance & Review goal includes making sure that the releases are easily usable, have no obvious bugs or pitfalls that might turn developers off from trying further once they run into them and making sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
 
-### Quality Assurance/Review
+- ### Code Samples Development
+	This goal includes code examples and well-presented Proof-of-Concepts to kickstart developers.
 
-Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
+- ### Improvements to Module and Libraries
+	This goal includes developer-friendly APIs both at release and after release as well as e.g. spotlight for community projects using each of libraries.
 
- > - [ ] Insert goal name and link to issue. e.g. [IOTA Streams Feedback (A)](https://github.com/iota-community/IOTAStreams/issues/1)
+- ### Testing Rust Code
+	This goal is all about testing the core Rust codebase, coming up with new test cases as well as benchmarking.
 
-### Documentation
-
-Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest
-
-- [Identity Documenation Poral](https://identity.docs.iota.org/) 
-
-> - [ ] **Insert goal name and link to issue. e.g.** [“Channels Application step-by-step” joint blog post series (B)](https://github.com/iota-community/IOTAStreams/issues/2)
-> - [ ]
-### Code samples development
-
-Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development
-
-> - [ ] **Insert goal name and link to issue. e.g.** [IOTA Streams Integrations (B)](https://github.com/iota-community/IOTAStreams/issues/3)
-> - [ ]
-
-###  Improvements to module/libraries
-
-Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
-
-> - [ ] **Insert goal name and link to issue. e.g.** [IOTA Streams Integrations (B)](https://github.com/iota-community/IOTAStreams/issues/3)
-> - [ ]
+- ### Testing and Extending Bindings (WASM, C, Python, Java, Go, ...)
+	IOTA Identity will provide several bindings towards the most popular programming languages. This goal is about testing and extending these bindings.
 
 ## 🤔 How Can You Get Involved?
 
-Show your interest by adding your information with an issue here on github and join the IOTA Experience Team on the [IOTA Discord](https://discord.iota.org).
+Show your interest by adding some information about you through an Application issue here on Github (see [closed issues](https://github.com/iota-community/X-Team_IOTA_Identity/issues?q=is%3Aissue+is%3Aclosed)) and join the IOTA Identity Experience Team on the [IOTA Discord](https://discord.iota.org).
 
 ## 👥 What to expect?
 
-Meet with IOTA Foundation members to exchange ideas, give and receive feedback for the chosen goal(s).
+Weekly meetups to discuss with IOTA Community as well as IOTA Foundation members to exchange ideas and give and receive feedback for the chosen goal(s) or ongoing projects.
 
 This initiative is possible thanks to the contribution of the IOTA Community members and participants will be invited to participate in feedback collecting and evaluating sessions to further push the capabilities of the IOTA Experience Teams. 
