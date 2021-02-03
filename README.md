@@ -1,13 +1,9 @@
 <p align="center">
-  <br>
     <img src="https://iota-community.github.io/IOTA-eXperience-Team/page-resources/images/x_team_logo.svg"/>
 </p>
 
 
-<h1 align="center"><a href="https://www.iota.org"> IOTA Identity
- Initiative</a></h1>
-
-<p align="center">The IOTA Identity Initiative is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.</p>
+<h1 align="center"><a href="https://www.iota.org"> IOTA Identity Experience Team</a></h1>
 
 <p align="center">
   <a title="MIT License" href="LICENSE">
@@ -21,13 +17,15 @@
 </p>
 
 
-## 🌳 IOTA Identity Initiative
+## 🌳 IOTA Identity Experience Team
 
-The **IOTA Identity Initiative** is a collaborative effort to help people in the IOTA Community by introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs) with content, and open source contributions.
+The IOTA Identity Experience Team is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.
 
-IOTA Identity is an implementation of decentralized digital identity also known as Self Sovereign Identity (SSI). It implements standards such as DID and Verifiable Credentials from W3C and other related (proposed) standards.
+The **IOTA Identity Experience Team** is a collaborative effort to provide help, guidance and spotlight to the IOTA Identity Community through offering feedback and introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs).
 
-IOTA is an open-source distributed ledger technology that allows [connected devices](https://en.wikipedia.org/wiki/Connected_Devices) to transfer data and [IOTA tokens](https://docs.iota.org/docs/getting-started/0.1/clients/token) among each other for zero fees.
+**IOTA Identity** is an implementation of decentralized digital identity, also known as Self Sovereign Identity (SSI), by the [IOTA Foundation](https://www.iota.org). It implements standards such as [Decentralized Identifiers (DID)](https://www.w3.org/TR/did-core/) and [Verifiable Credentials (VC)](https://www.w3.org/TR/vc-data-model/) from W3C as well as other related (proposed) standards.
+
+**IOTA** is an open-source distributed ledger technology that allows [connected devices](https://en.wikipedia.org/wiki/Connected_Devices) to securely transfer data and [IOTA tokens](https://docs.iota.org/docs/getting-started/0.1/clients/token) amongst each other without any fees.
 
 ## 🎯 Initiative Goals
 
@@ -45,7 +43,6 @@ The IOTA Identity is in phase [alpha implementation]. We are currently focused o
 
 Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
 
- > - [ ] Insert goal name and link to issue. e.g. [IOTA Streams Feedback (A)](https://github.com/iota-community/IOTAStreams/issues/1)
 
 ### Documentation
 
@@ -53,21 +50,16 @@ Documentation goal includes everything related to writing, curating, and sharing
 
 - [Identity Documenation Poral](https://identity.docs.iota.org/) 
 
-> - [ ] **Insert goal name and link to issue. e.g.** [“Channels Application step-by-step” joint blog post series (B)](https://github.com/iota-community/IOTAStreams/issues/2)
-> - [ ]
+
 ### Code samples development
 
 Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development
 
-> - [ ] **Insert goal name and link to issue. e.g.** [IOTA Streams Integrations (B)](https://github.com/iota-community/IOTAStreams/issues/3)
-> - [ ]
 
 ###  Improvements to module/libraries
 
 Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
 
-> - [ ] **Insert goal name and link to issue. e.g.** [IOTA Streams Integrations (B)](https://github.com/iota-community/IOTAStreams/issues/3)
-> - [ ]
 
 ## 🤔 How Can You Get Involved?
 
