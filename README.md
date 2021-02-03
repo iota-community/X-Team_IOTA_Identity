@@ -1,8 +1,3 @@
-<p align="center">
-    <img src="https://iota-community.github.io/IOTA-eXperience-Team/page-resources/images/x_team_logo.svg"/>
-</p>
-
-
 <h1 align="center"><a href="https://www.iota.org"> IOTA Identity Experience Team</a></h1>
 
 <p align="center">
