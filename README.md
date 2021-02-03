@@ -30,39 +30,20 @@ The **IOTA Identity Experience Team** is a collaborative effort to provide help,
 The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:
 
 - ### Quality Assurance/Review
-
-	test
-test
-- Documentation
-- **Code samples development**
-test
-sdfg
-- Improvements to module/libraries
-- Test Rust Code
-- Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
-
-
-### Quality Assurance/Review
-
 Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
 
-
-### Documentation
-
+- ### Documentation
 Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest
 
 - [Identity Documenation Poral](https://identity.docs.iota.org/) 
-
-
-### Code samples development
-
+- ### Code samples development
 Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development
-
-
-###  Improvements to module/libraries
-
+- ### Improvements to module/libraries
 Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
-
+- ### Test Rust Code
+bla blub
+- ### Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
+dfgsdfg
 
 ## 🤔 How Can You Get Involved?
 
