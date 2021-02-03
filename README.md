@@ -29,12 +29,14 @@ The **IOTA Identity Experience Team** is a collaborative effort to provide help,
 
 The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:
 
-- Quality Assurance/Review
+- ### Quality Assurance/Review
 
 	test
 test
 - Documentation
-- Code samples development
+- **Code samples development**
+test
+sdfg
 - Improvements to module/libraries
 - Test Rust Code
 - Test and extend bindings to other programming languages (C, Python, Java, Go, ...)
