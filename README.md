@@ -30,22 +30,22 @@ The **IOTA Identity Experience Team** is a collaborative effort to provide help,
 The [IOTA Identity library](https://github.com/iotaledger/identity.rs) is currently in alpha phase. Hence, we are focused on improving the experience around the following topics:
 
 - ### Documentation
-	Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest [Identity Documenation Poral](https://identity.docs.iota.org/) 
+	Documentation includes everything related to writing, curating, and sharing content with solid documentation at every launch, which is kept up-to-date and well-written, with examples and explanations of tangible use cases to stimulate developer interest. This is done mainly within the codebase as comments as well as through the [IOTA Identity Documenation Portal](https://identity.docs.iota.org/).
 
 - ### Quality Assurance & Review
-	Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
+	The Quality Assurance & Review goal includes making sure that the releases are easily usable, have no obvious bugs or pitfalls that might turn developers off from trying further once they run into them and making sure that the examples we provide are clear and work for the most common use cases the release is aimed at.
 
 - ### Code Samples Development
-	Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development
+	This goal includes code examples and well-presented Proof-of-Concepts to kickstart developers.
 
 - ### Improvements to Module and Libraries
-	Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)
+	This goal includes developer-friendly APIs both at release and after release as well as e.g. spotlight for community projects using each of libraries.
 
 - ### Testing Rust Code
-	bla blub
+	This goal is all about testing the core Rust codebase, coming up with new test cases as well as benchmarking.
 
-- ### Testing and extending bindings to other programming languages (WASM, C, Python, Java, Go, ...)
-	dfgsdfg
+- ### Testing and Extending Bindings (WASM, C, Python, Java, Go, ...)
+	IOTA Identity will provide several bindings towards the most popular programming languages. This goal is about testing and extending these bindings.
 
 ## 🤔 How Can You Get Involved?
 
