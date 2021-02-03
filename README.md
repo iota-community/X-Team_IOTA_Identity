@@ -19,8 +19,6 @@
 
 ## 🌳 IOTA Identity Experience Team
 
-The IOTA Identity Experience Team is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.
-
 The **IOTA Identity Experience Team** is a collaborative effort to provide help, guidance and spotlight to the IOTA Identity Community through offering feedback and introducing consistent workflows around [IOTA Identity](https://github.com/iotaledger/identity.rs).
 
 **IOTA Identity** is an implementation of decentralized digital identity, also known as Self Sovereign Identity (SSI), by the [IOTA Foundation](https://www.iota.org). It implements standards such as [Decentralized Identifiers (DID)](https://www.w3.org/TR/did-core/) and [Verifiable Credentials (VC)](https://www.w3.org/TR/vc-data-model/) from W3C as well as other related (proposed) standards.
