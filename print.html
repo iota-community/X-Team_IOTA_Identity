@@ -35,6 +35,9 @@
         
 
         
+
+        <script src='public/build/bundle.js'></script>
+
     </head>
     <body>
         <!-- Provide site root to javascript -->
@@ -85,7 +88,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="blog/index.html"><strong aria-hidden="true">2.</strong> Blog</a></li><li class="chapter-item expanded "><a href="meetings/index.html"><strong aria-hidden="true">3.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">4.</strong> Members</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="page/index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="page/blog/index.html"><strong aria-hidden="true">2.</strong> Blog</a></li><li class="chapter-item expanded "><a href="page/meetings/index.html"><strong aria-hidden="true">3.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="page/members/index.html"><strong aria-hidden="true">4.</strong> Members</a></li><li class="chapter-item expanded "><a href="page/tools/index.html"><strong aria-hidden="true">5.</strong> Tools</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -155,11 +158,9 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1 align="center"><a href="https://www.iota.org"> IOTA Identity
- Initiative</a></h1>
-<p align="center">The IOTA Identity Initiative is aimed to provide help, guidance, and spotlight to the IOTA Developer Community.</p>
+                        <h1 align="center"><a href="https://www.iota.org"> IOTA Identity Experience Team</a></h1>
 <p align="center">
-  <a title="MIT License" href="LICENSE">
+  <a title="MIT License" href="page/LICENSE">
     <img src="https://img.shields.io/github/license/gridsome/gridsome.svg?style=flat-square&label=License&colorB=6cc24a">
   </a>
   <a title="Follow on Twitter" href="https://twitter.com/iotatoken">
@@ -168,62 +169,42 @@
   <br>
   <br>
 </p>
-<h2><a class="header" href="#-iota-identity-initiative" id="-iota-identity-initiative">🌳 IOTA Identity Initiative</a></h2>
-<p>The <strong>IOTA Identity Initiative</strong> is a collaborative effort to help people in the IOTA Community by introducing consistent workflows around <a href="https://github.com/iotaledger/identity.rs">IOTA Identity</a> with content, and open source contributions.</p>
-<p>IOTA Identity is an implementation of decentralized digital identity also known as Self Sovereign Identity (SSI). It implements standards such as DID and Verifiable Credentials from W3C and other related (proposed) standards.</p>
-<p>IOTA is an open-source distributed ledger technology that allows <a href="https://en.wikipedia.org/wiki/Connected_Devices">connected devices</a> to transfer data and <a href="https://docs.iota.org/docs/getting-started/0.1/clients/token">IOTA tokens</a> among each other for zero fees.</p>
+<h2><a class="header" href="#-iota-identity-experience-team" id="-iota-identity-experience-team">🌳 IOTA Identity Experience Team</a></h2>
+<p>The <strong>IOTA Identity Experience Team</strong> is a collaborative effort to provide help, guidance and spotlight to the IOTA Identity Community through offering feedback and introducing consistent workflows around <a href="https://github.com/iotaledger/identity.rs">IOTA Identity</a>.</p>
+<p><strong>IOTA Identity</strong> is an implementation of decentralized digital identity, also known as Self Sovereign Identity (SSI), by the <a href="https://www.iota.org">IOTA Foundation</a>. It implements standards such as <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DID)</a> and <a href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials (VC)</a> from W3C as well as other related (proposed) standards.</p>
+<p><strong>IOTA</strong> is an open-source distributed ledger technology that allows <a href="https://en.wikipedia.org/wiki/Connected_Devices">connected devices</a> to securely transfer data and <a href="https://docs.iota.org/docs/getting-started/0.1/clients/token">IOTA tokens</a> amongst each other without any fees.</p>
 <h2><a class="header" href="#-initiative-goals" id="-initiative-goals">🎯 Initiative Goals</a></h2>
-<p>The IOTA Identity is in phase [alpha implementation]. We are currently focused on improving the IOTA Experience around the following goals:</p>
+<p>The <a href="https://github.com/iotaledger/identity.rs">IOTA Identity library</a> is currently in alpha phase. Hence, we are focused on improving the experience around the following topics:</p>
 <ul>
-<li>Quality Assurance/Review</li>
-<li>Documentation</li>
-<li>Code samples development</li>
-<li>Improvements to module/libraries</li>
-<li>Test Rust Code</li>
-<li>Test and extend bindings to other programming languages (C, Python, Java, Go, ...)</li>
-</ul>
-<h3><a class="header" href="#quality-assurancereview" id="quality-assurancereview">Quality Assurance/Review</a></h3>
-<p>Quality Assurance/Review goal includes making sure that the releases are easily usable, has no obvious bugs or pitfalls that might turn developers off from trying further once they run into them, make sure that the examples we provide are clear and work for the most common use cases the release is aimed at.</p>
-<blockquote>
-<ul>
-<li><input disabled="" type="checkbox"/>
-Insert goal name and link to issue. e.g. <a href="https://github.com/iota-community/IOTAStreams/issues/1">IOTA Streams Feedback (A)</a></li>
-</ul>
-</blockquote>
+<li>
 <h3><a class="header" href="#documentation" id="documentation">Documentation</a></h3>
-<p>Documentation goal includes everything related to writing, curating, and sharing content around with solid documentation at every launch, that is kept up-to-date, well-written explanations of tangible use cases to stimulate developer interest</p>
-<ul>
-<li><a href="https://identity.docs.iota.org/">Identity Documenation Poral</a> </li>
+<p>Documentation includes everything related to writing, curating, and sharing content with solid documentation at every launch, which is kept up-to-date and well-written, with examples and explanations of tangible use cases to stimulate developer interest. This is done mainly within the codebase as comments as well as through the <a href="https://identity.docs.iota.org/">IOTA Identity Documenation Portal</a>.</p>
+</li>
+<li>
+<h3><a class="header" href="#quality-assurance--review" id="quality-assurance--review">Quality Assurance &amp; Review</a></h3>
+<p>The Quality Assurance &amp; Review goal includes making sure that the releases are easily usable, have no obvious bugs or pitfalls that might turn developers off from trying further once they run into them and making sure that the examples we provide are clear and work for the most common use cases the release is aimed at.</p>
+</li>
+<li>
+<h3><a class="header" href="#code-samples-development" id="code-samples-development">Code Samples Development</a></h3>
+<p>This goal includes code examples and well-presented Proof-of-Concepts to kickstart developers.</p>
+</li>
+<li>
+<h3><a class="header" href="#improvements-to-module-and-libraries" id="improvements-to-module-and-libraries">Improvements to Module and Libraries</a></h3>
+<p>This goal includes developer-friendly APIs both at release and after release as well as e.g. spotlight for community projects using each of libraries.</p>
+</li>
+<li>
+<h3><a class="header" href="#testing-rust-code" id="testing-rust-code">Testing Rust Code</a></h3>
+<p>This goal is all about testing the core Rust codebase, coming up with new test cases as well as benchmarking.</p>
+</li>
+<li>
+<h3><a class="header" href="#testing-and-extending-bindings-wasm-c-python-java-go-" id="testing-and-extending-bindings-wasm-c-python-java-go-">Testing and Extending Bindings (WASM, C, Python, Java, Go, ...)</a></h3>
+<p>IOTA Identity will provide several bindings towards the most popular programming languages. This goal is about testing and extending these bindings.</p>
+</li>
 </ul>
-<blockquote>
-<ul>
-<li><input disabled="" type="checkbox"/>
-<strong>Insert goal name and link to issue. e.g.</strong> <a href="https://github.com/iota-community/IOTAStreams/issues/2">“Channels Application step-by-step” joint blog post series (B)</a></li>
-<li>[ ]</li>
-</ul>
-</blockquote>
-<h3><a class="header" href="#code-samples-development" id="code-samples-development">Code samples development</a></h3>
-<p>Code samples development goal includes Code examples and well-presented PoCs to kick start devs Create a list of RFP’s for the EDF to fund Open-Source development</p>
-<blockquote>
-<ul>
-<li><input disabled="" type="checkbox"/>
-<strong>Insert goal name and link to issue. e.g.</strong> <a href="https://github.com/iota-community/IOTAStreams/issues/3">IOTA Streams Integrations (B)</a></li>
-<li>[ ]</li>
-</ul>
-</blockquote>
-<h3><a class="header" href="#improvements-to-modulelibraries" id="improvements-to-modulelibraries">Improvements to module/libraries</a></h3>
-<p>Improvements to module/libraries goal includes Developer-friendly APIs at launch Solid comms both at release and after release (e.g. spotlight for community projects using each of libs)</p>
-<blockquote>
-<ul>
-<li><input disabled="" type="checkbox"/>
-<strong>Insert goal name and link to issue. e.g.</strong> <a href="https://github.com/iota-community/IOTAStreams/issues/3">IOTA Streams Integrations (B)</a></li>
-<li>[ ]</li>
-</ul>
-</blockquote>
 <h2><a class="header" href="#-how-can-you-get-involved" id="-how-can-you-get-involved">🤔 How Can You Get Involved?</a></h2>
-<p>Show your interest by adding your information with an issue here on github and join the IOTA Experience Team on the <a href="https://discord.iota.org">IOTA Discord</a>.</p>
+<p>Show your interest by adding some information about you through an Application issue here on Github (see <a href="https://github.com/iota-community/X-Team_IOTA_Identity/issues?q=is%3Aissue+is%3Aclosed">closed issues</a>) and join the IOTA Identity Experience Team on the <a href="https://discord.iota.org">IOTA Discord</a>.</p>
 <h2><a class="header" href="#-what-to-expect" id="-what-to-expect">👥 What to expect?</a></h2>
-<p>Meet with IOTA Foundation members to exchange ideas, give and receive feedback for the chosen goal(s).</p>
+<p>Weekly meetups to discuss with IOTA Community as well as IOTA Foundation members to exchange ideas and give and receive feedback for the chosen goal(s) or ongoing projects.</p>
 <p>This initiative is possible thanks to the contribution of the IOTA Community members and participants will be invited to participate in feedback collecting and evaluating sessions to further push the capabilities of the IOTA Experience Teams. </p>
 <h1><a class="header" href="#blog" id="blog">Blog</a></h1>
 <ul>
@@ -259,7 +240,7 @@ window.onload = function (e) {
 <p>Wednesday, 2021-01-20 - 19:00 to 20:00 (CEST) </p>
 <h2><a class="header" href="#past-meetings" id="past-meetings">Past Meetings</a></h2>
 <ul>
-<li><a href="meetings/./notes/2021-01-20/">[2021-01-20] X-Team Weekly #1</a></li>
+<li><a href="page/meetings/./notes/2021-01-20/">[2021-01-20] X-Team Weekly #1</a></li>
 <li><a href="https://github.com/iota-community/X-Team_IOTA_Identity/issues/10">[2020-11-04] X-Team Identity Kickoff</a></li>
 </ul>
 <h1><a class="header" href="#members" id="members">Members</a></h1>
@@ -271,10 +252,12 @@ The list is sorted alphabetically by GitHub accounts.</p>
 <h2><a class="header" href="#x-team" id="x-team">X-Team</a></h2>
 <p>NewBees are new to Rust and help each other by problems.</p>
 <ul>
-<li><a href="https://github.com/fiNYvo" target="blank">fiNYvo</a> | <a href="mailto:members/mail@your.mail">mail@your.mail</a> | your_discord#handle | Developer</li>
-<li><a href="https://github.com/tensor-programming" target="blank">Tensor-Programming</a> | <a href="mailto:members/mail@your.mail">mail@your.mail</a> | Tensor#2912 | Developer</li>
+<li><a href="https://github.com/fiNYvo" target="blank">fiNYvo</a> | <a href="mailto:page/members/mail@your.mail">mail@your.mail</a> | your_discord#handle | Developer</li>
+<li><a href="https://github.com/tensor-programming" target="blank">Tensor-Programming</a> | <a href="mailto:page/members/mail@your.mail">mail@your.mail</a> | Tensor#2912 | Developer</li>
 </ul>
-
+<h1><a class="header" href="#tools" id="tools">Tools</a></h1>
+<h2><a class="header" href="#create-an-iota-did" id="create-an-iota-did">Create an IOTA DID</a></h2>
+<create-did-demo />
                     </main>
 
                     <nav class="nav-wrapper" aria-label="Page navigation">
