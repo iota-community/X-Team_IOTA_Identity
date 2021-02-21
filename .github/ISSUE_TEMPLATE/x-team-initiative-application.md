@@ -3,7 +3,7 @@ name: X-Team Initiative Application
 about: Become a part of the Identity X-Team
 title: "[Application]"
 labels: application
-assignees: 'huhn511' 'aconitin'
+assignees: ['huhn511' 'aconitin']
 
 ---
 
