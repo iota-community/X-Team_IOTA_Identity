@@ -1,0 +1,324 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>IOTA Identity X-Team</title>
+        
+        <meta name="robots" content="noindex" />
+        
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="shortcut icon" href="">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:500" rel="stylesheet" type="text/css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <script async type="text/javascript" src="https://unpkg.com/@tryghost/content-api@1.4.13/umd/content-api.min.js"></script>
+
+        <!-- Custom theme stylesheets -->
+        
+
+        
+
+        <script src='public/build/bundle.js'></script>
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> Welcome</a></li><li class="chapter-item expanded "><a href="blog/index.html"><strong aria-hidden="true">2.</strong> Blog</a></li><li class="chapter-item expanded "><a href="meetings/index.html"><strong aria-hidden="true">3.</strong> Meetings</a></li><li class="chapter-item expanded "><a href="members/index.html"><strong aria-hidden="true">4.</strong> Members</a></li><li class="chapter-item expanded "><a href="tools/index.html"><strong aria-hidden="true">5.</strong> Tools</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        
+                    </div>
+
+                    <h1 class="menu-title">IOTA Identity X-Team</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        
+                        <a href="https://github.com/iota-community/X-Team_IOTA_Identity" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+
+                
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" name="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+                
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <p align="center">
+  <br>
+  <a href="https://www.iota.org">
+    <img src="https://images.ctfassets.net/xit7f234flxz/2UaYq5cR53ANDAKRT4HYWT/a4d962d037954adef7d0aa9a2e944a26/iota-small-logo.png"/>
+  </a>
+</p>
+<h1 align="center"><a href="https://www.iota.org"> IOTA Identity Experience Team</a></h1>
+<p align="center">
+  <a title="MIT License" href="LICENSE">
+    <img src="https://img.shields.io/github/license/gridsome/gridsome.svg?style=flat-square&label=License&colorB=6cc24a">
+  </a>
+  <a title="Follow on Twitter" href="https://twitter.com/iotatoken">
+    <img src="https://img.shields.io/twitter/follow/iotatoken.svg?style=social&label=Follow%20@iotatoken">
+  </a>
+  <br>
+  <br>
+</p>
+<h2 id="-iota-identity-experience-team"><a class="header" href="#-iota-identity-experience-team">🌳 IOTA Identity Experience Team</a></h2>
+<p>The <strong>IOTA Identity Experience Team</strong> is a collaborative effort to provide help, guidance and spotlight to the IOTA Identity Community through offering feedback and introducing consistent workflows around <a href="https://github.com/iotaledger/identity.rs">IOTA Identity</a>.</p>
+<p><strong>IOTA Identity</strong> is an implementation of decentralized digital identity, also known as Self Sovereign Identity (SSI), by the <a href="https://www.iota.org">IOTA Foundation</a>. It implements standards such as <a href="https://www.w3.org/TR/did-core/">Decentralized Identifiers (DID)</a> and <a href="https://www.w3.org/TR/vc-data-model/">Verifiable Credentials (VC)</a> from W3C as well as other related (proposed) standards.</p>
+<p><strong>IOTA</strong> is an open-source distributed ledger technology that allows <a href="https://en.wikipedia.org/wiki/Connected_Devices">connected devices</a> to securely transfer data and <a href="https://docs.iota.org/docs/getting-started/0.1/clients/token">IOTA tokens</a> amongst each other without any fees.</p>
+<h2 id="-initiative-goals"><a class="header" href="#-initiative-goals">🎯 Initiative Goals</a></h2>
+<p>The <a href="https://github.com/iotaledger/identity.rs">IOTA Identity library</a> is currently in alpha phase. Hence, we are focused on improving the experience around the following topics:</p>
+<ul>
+<li>
+<h3 id="documentation"><a class="header" href="#documentation">Documentation</a></h3>
+<p>Documentation includes everything related to writing, curating, and sharing content with solid documentation at every launch, which is kept up-to-date and well-written, with examples and explanations of tangible use cases to stimulate developer interest. This is done mainly within the codebase as comments as well as through the <a href="https://identity.docs.iota.org/">IOTA Identity Documenation Portal</a>.</p>
+</li>
+<li>
+<h3 id="quality-assurance--review"><a class="header" href="#quality-assurance--review">Quality Assurance &amp; Review</a></h3>
+<p>The Quality Assurance &amp; Review goal includes making sure that the releases are easily usable, have no obvious bugs or pitfalls that might turn developers off from trying further once they run into them and making sure that the examples we provide are clear and work for the most common use cases the release is aimed at.</p>
+</li>
+<li>
+<h3 id="code-samples-development"><a class="header" href="#code-samples-development">Code Samples Development</a></h3>
+<p>This goal includes code examples and well-presented Proof-of-Concepts to kickstart developers.</p>
+</li>
+<li>
+<h3 id="improvements-to-module-and-libraries"><a class="header" href="#improvements-to-module-and-libraries">Improvements to Module and Libraries</a></h3>
+<p>This goal includes developer-friendly APIs both at release and after release as well as e.g. spotlight for community projects using each of libraries.</p>
+</li>
+<li>
+<h3 id="testing-rust-code"><a class="header" href="#testing-rust-code">Testing Rust Code</a></h3>
+<p>This goal is all about testing the core Rust codebase, coming up with new test cases as well as benchmarking.</p>
+</li>
+<li>
+<h3 id="testing-and-extending-bindings-wasm-c-python-java-go-"><a class="header" href="#testing-and-extending-bindings-wasm-c-python-java-go-">Testing and Extending Bindings (WASM, C, Python, Java, Go, ...)</a></h3>
+<p>IOTA Identity will provide several bindings towards the most popular programming languages. This goal is about testing and extending these bindings.</p>
+</li>
+</ul>
+<h2 id="-how-can-you-get-involved"><a class="header" href="#-how-can-you-get-involved">🤔 How Can You Get Involved?</a></h2>
+<p>Show your interest by adding some information about you through an Application issue here on Github (see <a href="https://github.com/iota-community/X-Team_IOTA_Identity/issues?q=is%3Aissue+is%3Aclosed">closed issues</a>) and join the IOTA Identity Experience Team on the <a href="https://discord.iota.org">IOTA Discord</a>.</p>
+<h2 id="-what-to-expect"><a class="header" href="#-what-to-expect">👥 What to expect?</a></h2>
+<p>Weekly meetups to discuss with IOTA Community as well as IOTA Foundation members to exchange ideas and give and receive feedback for the chosen goal(s) or ongoing projects.</p>
+<p>This initiative is possible thanks to the contribution of the IOTA Community members and participants will be invited to participate in feedback collecting and evaluating sessions to further push the capabilities of the IOTA Experience Teams. </p>
+<h1 id="blog"><a class="header" href="#blog">Blog</a></h1>
+<ul>
+<li><a href="https://blog.iota.org/releasing-iota-identity-alpha-a-standard-framework-for-digital-identity-cebabd108b4f/">[2020-11-12] Releasing IOTA Identity Alpha</a></li>
+<li><a href="https://github.com/iota-community/X-Team_IOTA_Identity/issues/10">[2020-11-04] X-Team Identity Kickoff</a></li>
+</ul>
+<h2 id="iota-foundation-blog"><a class="header" href="#iota-foundation-blog">IOTA Foundation Blog</a></h2>
+<p>With the <code>Identity</code> tag.</p>
+<div id="if-blog-list"></div>
+<script>
+window.onload = function (e) {
+    var ul = document.createElement('ul');
+    document.getElementById('if-blog-list').appendChild(ul);
+
+    // fetch 5 posts, including related tags and authors
+    api.posts
+        .browse({ limit: 5, include: 'tags,authors', filter: 'tag:identity' })
+        .then((posts) => {
+            posts.forEach((post) => {
+                console.log(post.title);
+                var li = document.createElement('li');
+                ul.appendChild(li);
+                li.innerHTML += post.title;
+            });
+        })
+        .catch((err) => {
+            console.error(err);
+        });
+
+};
+</script><h1 id="meetings"><a class="header" href="#meetings">Meetings</a></h1>
+<h2 id="next-meeting"><a class="header" href="#next-meeting">Next Meeting</a></h2>
+<p>Wednesday, 2021-01-20 - 19:00 to 20:00 (CEST) </p>
+<h2 id="past-meetings"><a class="header" href="#past-meetings">Past Meetings</a></h2>
+<ul>
+<li><a href="meetings/./notes/2021-01-20/">[2021-01-20] X-Team Weekly #1</a></li>
+<li><a href="https://github.com/iota-community/X-Team_IOTA_Identity/issues/10">[2020-11-04] X-Team Identity Kickoff</a></li>
+</ul>
+<h1 id="members"><a class="header" href="#members">Members</a></h1>
+<p>This is the list of all Members and their contact information.
+The list is sorted alphabetically by GitHub accounts.</p>
+<ul>
+<li>GitHub Account | Email | Discord Handle</li>
+</ul>
+<h2 id="x-team"><a class="header" href="#x-team">X-Team</a></h2>
+<p>NewBees are new to Rust and help each other by problems.</p>
+<ul>
+<li><a href="https://github.com/fiNYvo" target="blank">fiNYvo</a> | <a href="mailto:members/mail@your.mail">mail@your.mail</a> | your_discord#handle | Developer</li>
+<li><a href="https://github.com/tensor-programming" target="blank">Tensor-Programming</a> | <a href="mailto:members/mail@your.mail">mail@your.mail</a> | Tensor#2912 | Developer</li>
+</ul>
+<h1 id="tools"><a class="header" href="#tools">Tools</a></h1>
+<h2 id="create-an-iota-did"><a class="header" href="#create-an-iota-did">Create an IOTA DID</a></h2>
+<did-resolver />
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                        
+
+                        
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                
+
+                
+            </nav>
+
+        </div>
+
+        
+
+        
+
+        
+        
+        
+
+        
+
+        
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+        
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+        
+        <script type="text/javascript" src="theme/custom/ghost.js"></script>
+        
+
+        
+        
+        <script type="text/javascript">
+        window.addEventListener('load', function() {
+            window.setTimeout(window.print, 100);
+        });
+        </script>
+        
+        
+
+    </body>
+</html>
