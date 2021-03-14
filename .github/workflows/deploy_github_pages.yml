@@ -17,7 +17,7 @@ jobs:
           args: "--basepath X-Team_IOTA_Identity"
 
       - run: mkdir dist
-      - run: cp -r __sapper__/export/X-Team_IOTA_Identity dist/
+      - run: cp -r __sapper__/export/X-Team_IOTA_Identity/* dist/
 
       - run: npm i
       - run: npm run build-storybook

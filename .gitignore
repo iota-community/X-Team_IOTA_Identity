@@ -5,3 +5,4 @@ yarn-error.log
 /__sapper__/
 .env
 storybook-static
+book
