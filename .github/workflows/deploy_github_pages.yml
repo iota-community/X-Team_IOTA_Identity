@@ -18,6 +18,7 @@ jobs:
 
       - run: npm i
       - run: npm run build-storybook
+      - run: mkdir __sapper__/export/X-Team_IOTA_Identity/storybook
       - run: cp -r storybook-static __sapper__/export/X-Team_IOTA_Identity/storybook
       
       - name: Deploy to GitHub Pages
