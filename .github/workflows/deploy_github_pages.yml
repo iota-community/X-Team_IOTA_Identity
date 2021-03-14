@@ -14,10 +14,10 @@ jobs:
         uses: truewebartisans/actions-sapper@master
         with:
           build_mode: "export"
-          args: "--basepath website"
+          args: "--basepath X-Team_IOTA_Identity"
       - name: Deploy to GitHub Pages
         uses: iotaledger/actions-gh-pages@v3
         with:
-          publish_dir: __sapper__/export/website
+          publish_dir: __sapper__/export/X-Team_IOTA_Identity
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
