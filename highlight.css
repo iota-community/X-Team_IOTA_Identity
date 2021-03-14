@@ -1,79 +1,219 @@
-/* Base16 Atelier Dune Light - Theme */
-/* by Bram de Haan (http://atelierbram.github.io/syntax-highlighting/atelier-schemes/dune) */
-/* Original Base16 color scheme by Chris Kempson (https://github.com/chriskempson/base16) */
-
-/* Atelier-Dune Comment */
-.hljs-comment,
-.hljs-quote {
-  color: #AAA;
+code[class*="language-"], pre[class*="language-"] {
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	hyphens: none;
+	color: inherit;
+	text-shadow: none;
+	/* font-family: Roboto Mono, monospace; */
+	font-size: 1em;
+	line-height: 1.5em;
+	tab-size: 4;
 }
 
-/* Atelier-Dune Red */
-.hljs-variable,
-.hljs-template-variable,
-.hljs-attribute,
-.hljs-tag,
-.hljs-name,
-.hljs-regexp,
-.hljs-link,
-.hljs-name,
-.hljs-selector-id,
-.hljs-selector-class {
-  color: #d73737;
+code[class*="language-"]::-moz-selection, pre[class*="language-"]::-moz-selection,
+code[class*="language-"] ::-moz-selection,
+pre[class*="language-"] ::-moz-selection {
+	text-shadow: none;
+	opacity: 1;
+	color: #eee;
+	background: #363636;
 }
 
-/* Atelier-Dune Orange */
-.hljs-number,
-.hljs-meta,
-.hljs-built_in,
-.hljs-builtin-name,
-.hljs-literal,
-.hljs-type,
-.hljs-params {
-  color: #b65611;
+code[class*="language-"]::selection, pre[class*="language-"]::selection,
+code[class*="language-"] ::selection,
+pre[class*="language-"] ::selection {
+	text-shadow: none;
+	opacity: 1;
+	color: #eee;
+	background: #363636;
 }
 
-/* Atelier-Dune Green */
-.hljs-string,
-.hljs-symbol,
-.hljs-bullet {
-  color: #60ac39;
+@media print {
+	code[class*="language-"], pre[class*="language-"] {
+		text-shadow: none !important;
+	}
 }
 
-/* Atelier-Dune Blue */
-.hljs-title,
-.hljs-section {
-  color: #6684e1;
+:not(pre) > code[class*="language-"] {
+	white-space: normal;
+	color: #c3cee3;
+	background: #263238;
+	border-radius: 0.2em;
+	padding: 0.1em;
 }
 
-/* Atelier-Dune Purple */
-.hljs-keyword,
-.hljs-selector-tag {
-  color: #b854d4;
+pre > code[class*="language-"] {
+	background: none;
 }
 
-.hljs {
-  display: block;
-  overflow-x: auto;
-  background: #f1f1f1;
-  color: #6e6b5e;
-  padding: 0.5em;
+pre[class*="language-"] {
+	overflow: auto;
+	position: relative;
+	color: #c3cee3;
+	background: #263238;
+	border-radius: 0;
+	margin: 0.5em 0;
+	padding: 1.25em 1em;
 }
 
-.hljs-emphasis {
-  font-style: italic;
+pre[class*="language-"].language-css > code, pre[class*="language-"].language-sass > code, pre[class*="language-"].language-scss > code {
+	color: #fd9170;
 }
 
-.hljs-strong {
-  font-weight: bold;
+[class*="language-"] .namespace {
+	opacity: 0.7;
 }
 
-.hljs-addition {
-  color: #22863a;
-  background-color: #f0fff4;
+.token.atrule {
+	color: #c792ea;
 }
 
-.hljs-deletion {
-  color: #b31d28;
-  background-color: #ffeef0;
+.token.attr-name {
+	color: #ffcb6b;
+}
+
+.token.attr-value {
+	color: #c3e88d;
+}
+
+.token.attribute {
+	color: #c3e88d;
+}
+
+.token.boolean {
+	color: #c792ea;
+}
+
+.token.builtin {
+	color: #ffcb6b;
+}
+
+.token.cdata {
+	color: #80cbc4;
+}
+
+.token.char {
+	color: #80cbc4;
+}
+
+.token.class {
+	color: #ffcb6b;
+}
+
+.token.class-name {
+	color: #f2ff00;
+}
+
+.token.color {
+	color: #f2ff00;
+}
+
+.token.comment {
+	color: #546e7a;
+}
+
+.token.constant {
+	color: #c792ea;
+}
+
+.token.deleted {
+	color: #f07178;
+}
+
+.token.doctype {
+	color: #546e7a;
+}
+
+.token.entity {
+	color: #f07178;
+}
+
+.token.function {
+	color: #c792ea;
+}
+
+.token.hexcode {
+	color: #f2ff00;
+}
+
+.token.id {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+.token.important {
+	color: #c792ea;
+	font-weight: bold;
+}
+
+.token.inserted {
+	color: #80cbc4;
+}
+
+.token.keyword {
+	color: #c792ea;
+	font-style: italic;
+}
+
+.token.number {
+	color: #fd9170;
+}
+
+.token.operator {
+	color: #89ddff;
+}
+
+.token.prolog {
+	color: #546e7a;
+}
+
+.token.property {
+	color: #80cbc4;
+}
+
+.token.pseudo-class {
+	color: #c3e88d;
+}
+
+.token.pseudo-element {
+	color: #c3e88d;
+}
+
+.token.punctuation {
+	color: #89ddff;
+}
+
+.token.regex {
+	color: #f2ff00;
+}
+
+.token.selector {
+	color: #f07178;
+}
+
+.token.string {
+	color: #c3e88d;
+}
+
+.token.symbol {
+	color: #c792ea;
+}
+
+.token.tag {
+	color: #f07178;
+}
+
+.token.unit {
+	color: #f07178;
+}
+
+.token.url {
+	color: #fd9170;
+}
+
+.token.variable {
+	color: #f07178;
 }

@@ -1,4 +1,0 @@
-book
-.env
-node_modules
-public/iota_identity_wasm_bg.wasm
