@@ -16,14 +16,16 @@ jobs:
           build_mode: "export"
           args: "--basepath X-Team_IOTA_Identity"
 
+      - run: mkdir dist
+      - run: cp -r __sapper__/export/X-Team_IOTA_Identity dist/
+
       - run: npm i
       - run: npm run build-storybook
-      - run: mkdir __sapper__/export/X-Team_IOTA_Identity/storybook
-      - run: cp -r storybook-static __sapper__/export/X-Team_IOTA_Identity/storybook
+      - run: cp -r storybook-static dist/storybook
       
       - name: Deploy to GitHub Pages
         uses: iotaledger/actions-gh-pages@v3
         with:
-          publish_dir: __sapper__/export/X-Team_IOTA_Identity
+          publish_dir: dist
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
