@@ -1,7 +1,7 @@
 # Summary
 
-- [Welcome](./page/README.md)
-- [Blog](./page/blog/README.md)
-- [Meetings](./page/meetings/README.md)
-- [Members](./page/members/README.md)
-- [Tools](./page/tools/README.md)
+- [Welcome](./README.md)
+- [Blog](./blog/README.md)
+- [Meetings](./meetings/README.md)
+- [Members](./members/README.md)
+- [Tools](./tools/README.md)

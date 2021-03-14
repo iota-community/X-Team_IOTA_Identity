@@ -28,8 +28,8 @@ jobs:
         with:
           mdbook-version: 'latest'
 
-      - run: mdbook build
-      - run: cp -r book dist/docs
+      - run: mdbook build docs
+      - run: cp -r docs/book dist/docs
       
       - name: Deploy to GitHub Pages
         uses: iotaledger/actions-gh-pages@v3
