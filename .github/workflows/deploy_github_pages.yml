@@ -22,6 +22,14 @@ jobs:
       - run: npm i
       - run: npm run build-storybook
       - run: cp -r storybook-static dist/storybook
+
+      - name: Setup mdBook
+        uses: peaceiris/actions-mdbook@v1
+          with:
+            mdbook-version: 'latest'
+
+      - run: mdbook build
+      - run: cp -r book dist/docs
       
       - name: Deploy to GitHub Pages
         uses: iotaledger/actions-gh-pages@v3
