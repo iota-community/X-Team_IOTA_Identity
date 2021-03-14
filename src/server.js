@@ -8,7 +8,7 @@ const dev = NODE_ENV === 'development';
 
 polka() // You can also use Express
 	.use(
-		dev ? '/' : 'website',
+		dev ? '/' : 'x-Team_IOTA_Identity',
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
 		sapper.middleware()
