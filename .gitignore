@@ -1,4 +1,6 @@
-book
-.env
+.DS_Store
 node_modules
-public/iota_identity_wasm_bg.wasm
+yarn-error.log
+/cypress/screenshots/
+/__sapper__/
+.env

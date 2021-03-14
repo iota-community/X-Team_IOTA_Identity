@@ -1,4 +1,4 @@
 # Tools
 
 ## Create an IOTA DID
-<create-did-demo />
+<did-resolver />
