@@ -25,8 +25,8 @@ jobs:
 
       - name: Setup mdBook
         uses: peaceiris/actions-mdbook@v1
-          with:
-            mdbook-version: 'latest'
+        with:
+          mdbook-version: 'latest'
 
       - run: mdbook build
       - run: cp -r book dist/docs
