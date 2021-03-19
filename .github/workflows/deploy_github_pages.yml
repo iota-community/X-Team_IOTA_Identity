@@ -37,3 +37,4 @@ jobs:
           publish_dir: dist
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: identity.iotaexperience.team
