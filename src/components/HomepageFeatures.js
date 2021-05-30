@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'Learn and Share',
-    img: '../../static/img/learn.png',
+    img: require('../../static/img/learn.png').default,
     description: (
       <>
         With Tutorials and Blog entries you have a perfect knowledge base - and it's completely community driven.
