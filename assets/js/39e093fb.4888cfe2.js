@@ -1,0 +1,1 @@
+(self.webpackChunkIOTA_Identity_X_Team=self.webpackChunkIOTA_Identity_X_Team||[]).push([[755],{22:function(t){"use strict";t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"identity","name":"identity","count":5,"permalink":"/blog/tags/identity"}')}}]);

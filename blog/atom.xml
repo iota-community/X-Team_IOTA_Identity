@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/iota-community/X-Team_IOTA_Identity/blog</id>
+    <title>IOTA Identity Initiative Blog</title>
+    <updated>2021-05-21T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/iota-community/X-Team_IOTA_Identity/blog"/>
+    <subtitle>IOTA Identity Initiative Blog</subtitle>
+    <icon>https://github.com/iota-community/X-Team_IOTA_Identity/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[X-Teams Website update!]]></title>
+        <id>website-update</id>
+        <link href="https://github.com/iota-community/X-Team_IOTA_Identity/blog/website-update"/>
+        <updated>2021-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New version available!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOTA Identity - Beta Release]]></title>
+        <id>beta-release</id>
+        <link href="https://github.com/iota-community/X-Team_IOTA_Identity/blog/beta-release"/>
+        <updated>2021-05-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New version available!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Identity X-Team - Video Day 01]]></title>
+        <id>videoday-01</id>
+        <link href="https://github.com/iota-community/X-Team_IOTA_Identity/blog/videoday-01"/>
+        <updated>2021-02-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[First Video Day is Online on Youtube!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IOTA Identity v0.2 Release]]></title>
+        <id>release-v0.2</id>
+        <link href="https://github.com/iota-community/X-Team_IOTA_Identity/blog/release-v0.2"/>
+        <updated>2021-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[New version available!]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hello World! 👋]]></title>
+        <id>hello-world</id>
+        <link href="https://github.com/iota-community/X-Team_IOTA_Identity/blog/hello-world"/>
+        <updated>2021-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome the the new IOTA Identity X-Team Website!]]></summary>
+    </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+    <channel>
+        <title>IOTA Identity Initiative Blog</title>
+        <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog</link>
+        <description>IOTA Identity Initiative Blog</description>
+        <lastBuildDate>Fri, 21 May 2021 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[X-Teams Website update!]]></title>
+            <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog/website-update</link>
+            <guid>website-update</guid>
+            <pubDate>Fri, 21 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New version available!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IOTA Identity - Beta Release]]></title>
+            <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog/beta-release</link>
+            <guid>beta-release</guid>
+            <pubDate>Mon, 10 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New version available!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Identity X-Team - Video Day 01]]></title>
+            <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog/videoday-01</link>
+            <guid>videoday-01</guid>
+            <pubDate>Tue, 23 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[First Video Day is Online on Youtube!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[IOTA Identity v0.2 Release]]></title>
+            <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog/release-v0.2</link>
+            <guid>release-v0.2</guid>
+            <pubDate>Fri, 19 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[New version available!]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Hello World! 👋]]></title>
+            <link>https://github.com/iota-community/X-Team_IOTA_Identity/blog/hello-world</link>
+            <guid>hello-world</guid>
+            <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Welcome the the new IOTA Identity X-Team Website!]]></description>
+        </item>
+    </channel>
+</rss>
