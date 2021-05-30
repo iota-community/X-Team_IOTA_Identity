@@ -6,10 +6,15 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  position: absolute;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  z-index: 1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255,255,255,.05);
+  border-radius: 16px;
+  backdrop-filter: blur(2px);
 }
 
 @media screen and (max-width: 966px) {
@@ -22,4 +27,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+
+.rain_wrapper {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  min-height: 100%;
+
 }

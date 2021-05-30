@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Identity X-Team',
-  tagline: 'X-Teams are cool',
-  url: 'https://identity.iotaexperience.team',
+  title: 'IOTA Identity Initiative',
+  tagline: 'X-Teams are awesome',
+  url: 'https://github.com/iota-community/X-Team_IOTA_Identity',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -11,21 +11,25 @@ module.exports = {
   projectName: 'X-Team_IOTA_Identity', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Identity',
       logo: {
-        alt: 'IOTA X-Team',
+        alt: 'X-Team Logo',
         src: 'img/logo.svg',
       },
       items: [
+        { to: '/blog', label: 'Blog', position: 'right' },
         {
           type: 'doc',
           docId: 'intro',
-          position: 'left',
-          label: 'Tutorial',
+          position: 'right',
+          label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          to: '/team',
+          position: 'right',
+          label: 'Team',
+        },
+        {
+          href: 'https://github.com/iota-community/Template_IOTA-X-Team-Initiative',
           label: 'GitHub',
           position: 'right',
         },
@@ -35,11 +39,23 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'X-Team',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Blog',
+              to: '/blog',
+            },
+            {
+              label: 'Docs',
               to: '/docs/intro',
+            },
+            {
+              label: 'Team',
+              to: '/Team',
+            },
+            {
+              label: 'GitHub',
+              href: 'https://github.com/iota-community/Template_IOTA-X-Team-Initiative',
             },
           ],
         },
@@ -47,34 +63,38 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Twitter',
+              href: 'https://twitter.com/iota',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.iota.org',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Stack Exchange',
+              href: 'https://iota.stackexchange.com/',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'More IOTA',
           items: [
             {
+              label: 'Website',
+              href: 'https://www.iota.org',
+            },
+            {
               label: 'Blog',
-              to: '/blog',
+              href: 'https://blog.iota.org',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/iotaledger',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Made with ❤ by the IOTA Community.`,
     },
   },
   presets: [
