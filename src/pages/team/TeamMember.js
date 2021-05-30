@@ -1,9 +1,14 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { SocialLink } from './SocialLink';
+import SocialLink from './SocialLink';
 
-export function TeamMember(props) {
-  const { name, title, image_url, social_links } = props
+const TeamMember = function(props) {
+  let { name, title, image_url, social_links } = props
+
+  if(!social_links) {
+    social_links = []
+  }
+
   return (
     <div className="col col--4">
       <div className={styles.teamMemberCard}>
@@ -21,4 +26,6 @@ export function TeamMember(props) {
     </div>
   )
 }
+
+export default TeamMember;
 

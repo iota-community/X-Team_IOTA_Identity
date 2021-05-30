@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './styles.module.css';
-import { GithubIcon } from './icons/Github';
-import { TwitterIcon } from './icons/Twitter';
-import { DiscordIcon } from './icons/Discord';
+import  GithubIcon  from './Github';
+import  TwitterIcon  from './Twitter';
+import  DiscordIcon  from './Discord';
 
-export function SocialLink(props) {
+const SocialLink = function(props) {
   const { type, link, label } = props;
   console.log("type", type);
   let icon;
@@ -28,3 +28,5 @@ export function SocialLink(props) {
     </div>
   )
 }
+
+export default SocialLink;

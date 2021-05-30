@@ -6,4 +6,3 @@ sidebar_position: 1
 
 This could be your tutorial!
 
-Learn how to contribute in [this section](../contribute/create-a-tutorial).

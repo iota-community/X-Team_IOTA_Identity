@@ -2,8 +2,8 @@ import React from 'react';
 import styles from './styles.module.css';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import { team } from './teamData';
-import { TeamMember } from './TeamMember';
+import TEAM from './teamData';
+import TeamMember from './TeamMember';
 
 export default function Team() {
   const { siteConfig } = useDocusaurusContext();
@@ -17,7 +17,7 @@ export default function Team() {
             <h1 className="hero__title">X-Team Members</h1>
             <p className="hero__subtitle">List of all members here...</p>
             <div className="row">
-              {team.map((item, index) => (
+              {TEAM.map((item, index) => (
                 <TeamMember key={index} {...item} />
               ))}
             </div>
