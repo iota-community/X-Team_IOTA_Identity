@@ -14,10 +14,9 @@ jobs:
         uses: truewebartisans/actions-sapper@master
         with:
           build_mode: "export"
-          args: "--basepath X-Team_IOTA_Identity"
 
       - run: mkdir dist
-      - run: cp -r __sapper__/export/X-Team_IOTA_Identity/* dist/
+      - run: cp -r __sapper__/export/* dist/
 
       - run: npm i
       - run: npm run build-storybook
@@ -37,3 +36,4 @@ jobs:
           publish_dir: dist
           publish_branch: gh-pages
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          cname: identity.iotaexperience.team

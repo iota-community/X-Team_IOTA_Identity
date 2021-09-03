@@ -1,0 +1,38 @@
+[
+  {
+    "name": "SvenFe",
+    "title": "Developer @ Filancore GmbH",
+    "discord_handle": "Aconitin#1833",
+    "image_url": "https://avatars.githubusercontent.com/u/3297532?v=4",
+    "social_links": [
+      {
+        "type": "github",
+        "link": "https://github.com/Aconitin"
+      },
+      {
+        "type": "twitter",
+        "link": "https://twitter.com/Sven_Fe"
+      },
+      {
+        "type": "discord",
+        "label": "Aconitin#1833"
+      }
+    ]
+  },
+  {
+    "name": "Adam Croply",
+    "title": "Founder @ croply.org",
+    "discord_handle": "adamski#0458",
+    "image_url": "https://avatars.githubusercontent.com/u/61834907?v=4",
+    "social_links": [
+      {
+        "type": "github",
+        "link": "https://github.com/AdamCroply"
+      },
+      {
+        "type": "discord",
+        "label": "adamski#0458"
+      }
+    ]
+  }
+]
